@@ -65,5 +65,7 @@ let a = 10;
  console.log(user[info]);
 
 
- 
+let Name = prompt('Как вас зовут?');
+alert(`Привет,${Name}!`);
+console.log(`Привет,${Name}!`)
 

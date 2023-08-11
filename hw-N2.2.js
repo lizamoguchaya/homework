@@ -50,4 +50,20 @@ let a = 10;
  let age = prompt('Сколько вам лет?');
  alert(age)
 
+ const user = { 
+    name: "Bob",
+    age: 25,
+    isAdmin: true
+
+ };
+ user['city of residence'] = 'Moscow';
+ user.age = 35;
+ delete user['city of residence']
+
+ let info = prompt('Какую информацию хотите узнать о пользователе?','Укажите name, age, isAdmin');
+ alert(user[info]);
+ console.log(user[info]);
+
+
  
+

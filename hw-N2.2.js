@@ -1,43 +1,40 @@
-let a = 10;
+ // задание 1//
+ let a = 20;
  alert(a);
 
- let aa = 20;
- alert(aa)
+ //задание 2//
+ let year = 2007;
+ alert(year);
 
+ //задание 3//
  let name = 'Brendan Eich';
  alert(name);
 
+ //задание 4//
  let x = 10;
- let up = 2;
- let sum = x + up;
+ let y = 2;
+ let sum = x + y;
  alert(sum);
-
- let number = 10;
- let down = 2;
- let difference = x - up;
+ let difference = x - y;
  alert(difference);
-
- let y = 10;
- let z = 2;
- let count = y * z;
+ let count = x * y;
  alert(count);
-
- let b = 10;
- let c = 2;
- let division = 10 / 2; 
+ let division = x / y; 
  alert(division);
-
+ 
+ //задание 5//
  let f = 2;
  let g = 5;
- let degree = 2 ** 5;
- alert(degree);
+ let result = 2 ** 5;
+ alert(result);
 
+ //задание 6//
  let ab = 9; 
- let bc = 2;
+ let b = 2;
  let mod = 9 % 2;
  alert(mod);
 
-
+ // задание 7//
  let num = 1;
  num += 5;
  num -= 3;
@@ -47,9 +44,12 @@ let a = 10;
  num -= 1;
  alert(num);
 
+ //задание 8//
  let age = prompt('Сколько вам лет?');
  alert(age)
 
+
+ //задание 9//
  const user = { 
     name: "Bob",
     age: 25,
@@ -64,7 +64,7 @@ let a = 10;
  alert(user[info]);
  console.log(user[info]);
 
-
+ //задание 10// 
 let Name = prompt('Как вас зовут?');
 alert(`Привет,${Name}!`);
 console.log(`Привет,${Name}!`)

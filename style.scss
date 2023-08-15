@@ -59,9 +59,14 @@
     line-height: normal;
     margin-bottom: 493px;
 }
+
+.button:hover { 
+    background-color:#EB443F; ;
+}
 .footer { 
     background-color:#000915; 
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 32px;
     
@@ -80,6 +85,9 @@
     line-height: 32px;
  
 }
+.for_item:hover{
+    border: 3px solid #44D2FF;
+}
 .for_item_2 { 
     background-image: url(img/Rectangle\ 7.jpg);
     width: 379px;
@@ -94,6 +102,9 @@
     line-height: 32px;
 
 }
+.for_item_2:hover {
+    border: 3px solid #44D2FF;
+}
 .for_item_3{
     background-image: url(img/Rectangle\ 8.jpg);
     width: 379px;
@@ -107,7 +118,12 @@
     font-weight: 600;
     line-height: 32px;
 }
+.for_item_3:hover {
+    border: 3px solid #44D2FF;
+}
 .for_item_text { 
     padding-top: 236px;
     padding-left: 32px;;
 }
+
+@import 'mobile'

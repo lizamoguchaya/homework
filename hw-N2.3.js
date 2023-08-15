@@ -34,10 +34,10 @@ if (d > 100 || e > 100) {
 }
 
 //задание 4// 
-let a = '2';
-let b = '3';
+ let a = '2';
+ let b = '3';
 
-alert(a + b);
+ alert((Number(a))+(Number(b)));
 
 //задание 5// 
 

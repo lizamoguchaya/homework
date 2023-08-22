@@ -12,7 +12,7 @@ let number = 1;
 do { 
     console.log(number);
     number++;
-} while (number <= 25);
+} while (number <= 5);
 
 // 3. Выведите в консоль числа от 7 до 22. // 
 

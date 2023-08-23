@@ -22,7 +22,7 @@ console.log(even_odd(5));
 
 // 3. //
 function calc(num) {
-    let mult = num * num
+    let mult = num * 2;
     console.log(mult);
 }
 calc(5);
@@ -75,6 +75,25 @@ console.log(Cube(3));
 
 
 // 7. // 
-
-
-
+function getCircleArea() {
+    return this.radius ** 2 * this.letPi;
+}
+function getCirclePerimetr(paras) {
+    return this.letPi * 2 * this.radius;
+}
+const circle1 = {
+    radius: 3,
+    letPi: 3.14,
+    getArea: getCircleArea,
+    getPerimetr: getCirclePerimetr
+}
+const circle2 = {
+    radius: 7,
+    letPi: 3.14,
+    getArea: getCircleArea,
+    getPerimetr: getCirclePerimetr
+}
+console.log(`Площадь первой окружности равна${circle1.getArea()}`);
+console.log(`Площадь второй окружности равна${circle2.getArea()}`);
+console.log(`Периметр первой окружности равен ${circle1.getPerimetr()}`);
+console.log(`Периметр второй окружности равен ${circle2.getPerimetr()}`);

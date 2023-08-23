@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 0;
   }
 
   .title { 
@@ -32,6 +33,7 @@
     font-weight: 700;
     line-height: normal;
     justify-content: center;
+    padding-left: 0;
   }
 
   .info { 
@@ -45,6 +47,7 @@
     line-height: 22px;
     justify-content: center;
     text-align: center;
+    padding-left: 0;
   }
 
   .button {
@@ -53,6 +56,7 @@
     align-items: center;
     text-align: center;
     margin-bottom: 239px;
+    margin-left: 0;
     
   }
   .for_item { 
@@ -69,6 +73,50 @@
 
   .footer { 
     padding-bottom: 127px;
+  }
+  
+  .first_game {
+    height: 653px;
+  }
+  .first_game_box {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first_game_name {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .first_game_start {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    width: 343px;
+    padding-left: 0;
+  }
+  .first_game_button {
+    margin-left: 0;
+  }
+  .first_game_img {
+    padding-top: 64px;
+    padding-right: 0;
+  }
+  .game_img { 
+    width: 344px;
+  
   }
 
 }

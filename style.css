@@ -23,6 +23,7 @@
   line-height: normal;
   padding-top: 217px;
   width: 788px;
+
 }
 
 .info {
@@ -35,6 +36,7 @@
   width: 421px;
   padding-top: 32px;
   padding-bottom: 44px;
+
 }
 
 .bold {
@@ -44,6 +46,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 32px;
+
 }
 
 .button {
@@ -52,6 +55,7 @@
   width: 234.063px;
   height: 48.603px;
   flex-shrink: 0;
+
   color: #FFF;
   font-family: Montserrat;
   font-size: 18px;
@@ -59,11 +63,13 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 493px;
+
 }
 
 .footer {
   background-color: #000915;
   display: flex;
+
   justify-content: center;
   gap: 32px;
 }
@@ -82,7 +88,7 @@
   line-height: 32px;
 }
 
-.for_item_2 {
+
   background-image: url(img/Rectangle\ 7.jpg);
   width: 379px;
   height: 300px;
@@ -95,6 +101,7 @@
   font-weight: 600;
   line-height: 32px;
 }
+
 
 .for_item_3 {
   background-image: url(img/Rectangle\ 8.jpg);
@@ -110,7 +117,5 @@
   line-height: 32px;
 }
 
-.for_item_text {
-  padding-top: 236px;
-  padding-left: 32px;
+
 }/*# sourceMappingURL=style.css.map */

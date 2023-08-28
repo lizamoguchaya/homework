@@ -1,8 +1,14 @@
 //1. Дан массив: [1, 5, 4, 10, 0, 3] Необходимо создать цикл, который будет выводить элементы массива до тех пор, пока не встретит значение 10.//
 
-let numbers = [1, 5, 4, 10, 0, 3];
-for (let i = 0; i <= [3]; i += 1) 
-console.log(numbers[i]);
+const numbers = [1, 5, 4, 10, 0, 3];
+
+ for (let i = 0; i < numbers.length; i++) {
+     if (numbers[i] === 10) {
+         console.log(numbers[i])
+         break;
+     }
+     console.log(numbers[i]);
+ }
 
 // 2. Дан массив: [1, 5, 4, 10, 0, 3].Найдите позицию (индекс) числа 4 в этом массиве.Подсказка: Задачу можно решить методом перебора элементов или используя метод массива indexOf. //
 
@@ -17,17 +23,16 @@ massive = massive.join (' ');
 console.log(massive);
 
 // 4. С помощью вложенных циклов создайте многомерный массив вида: [[1, 1, 1], [1, 1, 1], [1, 1, 1]].// 
+let mainArr = [];
+ let arrElement = 1;
 
-let arr = [
-    [1, 1, 1],
-    [1, 1, 1],
-    [1, 1, 1]
-]; 
-for (let arrIn of arr) {
-    for( let element of arrIn) {
-        console.log(element);
-    }
-};
+ for (i = 1; i <= 3; i++) {
+     let arr = [];
+     for (y = 1; y <= 3; y++) {
+         arr.push(arrElement);
+     }
+     mainArr.push(arr);
+ }
 
 // 5. Дан массив: [1, 1, 1]. Добавьте в конец массива значения 2, 2, 2.// 
 
@@ -48,7 +53,7 @@ console.log(unsortMassive);
 
 let correctNumbers = [9, 8, 7, 6, 5]; 
 let userAnswer = prompt('Введите число');
-  if (correctNumbers.includes(Number(userAnswer)) === true) {
+  if (correctNumbers.includes(Number(userAnswer))) {
     alert('Угадал')
   } else {
     alert('Не угадал')
@@ -75,7 +80,7 @@ console.log(result);
 // 10. Создайте массив с произвольными числами (диапазон от 1 до 10). Переберите его с помощью цикла for и в каждой итерации выведите в консоль сумму текущего и следующего элементов массива. Следующий элемент массива можно получить с помощью индекса:  i + 1. Обратите внимание, что у последнего элемента нет следующего. // 
 
 let array = [2, 4, 5, 7, 9, 3];
-for ( let i = 0; i <= array.length - 1; i++ ) {
+for ( let i = 0; i < array.length - 1; i++ ) {
     let sum = 0;
     if (i === array.length - 1) {
         sum = array[array.length - 1];
@@ -111,10 +116,3 @@ function filterPositive (array2) {
 console.log(filterPositive([-1, 0, 5, -10, 56]));
 console.log(filterPositive([-25, 25, 0, -1000, -2]));
 //
-
-
-
-
-
-
-
